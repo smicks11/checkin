@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7b6333be27.js" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+            color: #fff;
+            font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+            font-weight: 900;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            color: #404F5E;
+            font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+            font-size: 20px;
+            margin: 0;
+        }
+        
+        i {
+            color: #9ABC66;
+            font-size: 100px;
+            line-height: 200px;
+            margin-left: -15px;
+        }
+        
+        .card {
+            background: #1A2226;
+            padding: 60px;
+            border-radius: 4px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            display: inline-block;
+            margin: 0 auto;
+        }
+        
+        .rotate {
+            animation: rotation 1s linear;
+        }
+        
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <body style="text-align: center; padding: 40px 0; background: #222D32;">
+        <div class="card">
+            <div style="border-radius:200px; height:200px; width:200px; background: #0DB8DE; margin:0 auto;" class="rotate">
+                <i style="margin: 50px auto;" class="fas fa-times"></i>
+            </div>
+            <h1>Oops!</h1>
+            <p>Unsuccessful
+                <br> Try
+                <a href="../index.html" style="color: #0DB8DE;">checking in</a> again!</p>
+        </div>
+    </body>
+
+</html>
