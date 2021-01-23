@@ -49,9 +49,11 @@ input[type=tel] {
     border-radius: 0px;
     font-weight: bold;
     outline: 0;
-    margin-bottom: 20px;
+    margin: 0 auto;
     padding-left: 0px;
     color: #ECF0F5;
+    width: 100%;
+    text-align: center;
 }
 
 input[type=password] {
@@ -70,6 +72,7 @@ input[type=password] {
 .form-group {
     margin-bottom: 40px;
     outline: 0px;
+    text-align: center;
 }
 
 .form-control:focus {
